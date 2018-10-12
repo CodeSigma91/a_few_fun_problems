@@ -79,7 +79,7 @@ for i in range(100,1000,1):
 	for j in range(100,1000,1):
 		k = i*j
 
-	if isPalindrome (k):
+	if isPalindrome(k):
 		blist.append(k)
 		blist.sort(reverse=True)
 
