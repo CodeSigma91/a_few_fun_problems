@@ -1,7 +1,6 @@
-#Find the largest palindrome made from the product of two 3-digit numbers.
+## Find the largest palindrome made from the product of two 3-digit numbers.
 
-
-######The isPalindrome() function part of the solution was written by Danish Raza, found in the article by Abhijit Shankhdhar in the geeksforgeeks.org website (under the following URL: https://www.geeksforgeeks.org/check-number-palindrome-not-without-using-extra-space/).
+###### The isPalindrome() function part of the solution was written by Danish Raza, found in the article by Abhijit Shankhdhar in the geeksforgeeks.org website (under the following URL: https://www.geeksforgeeks.org/check-number-palindrome-not-without-using-extra-space/).
 
 I have integrated this function into my code to help solve the problem, but I have added my own comments to ensure that I have reviewed the function to understand the logic behind it before implementing it within the rest of my code (below the function). I simply had to solve the problem! :smile:
 
