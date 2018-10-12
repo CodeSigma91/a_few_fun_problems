@@ -55,33 +55,33 @@ Asking to print the first (index position 0) from blist will yield the final ans
 ## The full code is shown below:
 
 ```python
-	def isPalindrome(n): 
+def isPalindrome(n): 
 		
-		divisor = 1
-		while (n / divisor >= 10): 
+	divisor = 1
+	while (n / divisor >= 10): 
 		divisor *= 10
-		
-		while (n != 0):
-			leading = n // divisor
-			trailing = n % 10
-			
-			if (leading != trailing):
-				return False
-			
-			n = (n % divisor)//10
-			divisor = divisor/100
-		
-		return True
 
-	blist = []
-	#	
-	for i in range(100,1000,1):
-		for j in range(100,1000,1):
-			k = i*j
-	#
-		if isPalindrome (k):
-			blist.append(k)
-			blist.sort(reverse=True)
-	#
-	print ("The largest palindrome made from the product of two 3-digit numbers is: ", blist[0])
+	while (n != 0):
+		leading = n // divisor
+		trailing = n % 10
+			
+		if (leading != trailing):
+			return False
+			
+		n = (n % divisor)//10
+		divisor = divisor/100
+		
+	return True
 
+blist = []
+	
+for i in range(100,1000,1):
+	for j in range(100,1000,1):
+		k = i*j
+
+	if isPalindrome (k):
+		blist.append(k)
+		blist.sort(reverse=True)
+
+print ("The largest palindrome made from the product of two 3-digit numbers is: ", blist[0])
+```
