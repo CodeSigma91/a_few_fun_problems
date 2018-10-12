@@ -17,7 +17,7 @@ Finally, I ask to print the sum of all the integer values in the list using the 
 ```python
 print("The sum of all numbers below 1000 that are divisible by 3 or 5 is: ", sum(alist))
 ```
-### Full code without comments shown below:
+##### Full code without comments shown below:
 ```python
 alist = []
 
