@@ -2,7 +2,7 @@
 
 #### The isPalindrome() function in this solution was written by Danish Raza, found in the article by Abhijit Shankhdhar in the geeksforgeeks.org website (under the following URL: https://www.geeksforgeeks.org/check-number-palindrome-not-without-using-extra-space/).
 
-I have integrated this function into my code to help solve the problem, but I have added my own comments to ensure that I have reviewed the function to understand the logic behind it before implementing it within the rest of my code (below the function). I simply had to solve the problem! :smile:. Please scroll down to view the code without the extensive comments.
+I have integrated this function into my code to help solve the problem, but I have added my own comments to ensure that I have reviewed the function to understand the logic behind it before implementing it within the rest of my code. I simply had to solve the problem! :smile:. Please scroll down to view the code without the extensive comments.
 
 	def isPalindrome(n): 
 	
@@ -17,7 +17,7 @@ Almost like a counter variable, the while loop will increase the divisor variabl
 
 		while (n != 0): 
 
-The floor division of any number by the divisor variable would isolate the leading number and the modular division by 10 would yeild the trailing number or last digit. __*Ex: (1,234 // 1,000 == 1) and (1,234 % 10 == 4)*__. These values are temporarily assigned to two new variables, leading and trailing respectively.
+The floor division of any number by the divisor variable would isolate the leading number and the modular division by 10 would yield the trailing number or last digit. __*Ex: (1,234 // 1,000 == 1) and (1,234 % 10 == 4)*__. These values are temporarily assigned to two new variables, leading and trailing respectively.
 
 			leading = n // divisor
 			trailing = n % 10
@@ -54,6 +54,7 @@ Asking to print the first (index position 0) from blist will yield the final ans
 
 ## The full code is shown below:
 
+```python
 	def isPalindrome(n): 
 		
 		divisor = 1
