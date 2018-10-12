@@ -1,8 +1,8 @@
 ## Find the largest palindrome made from the product of two 3-digit numbers.
 
-###### The isPalindrome() function part of the solution was written by Danish Raza, found in the article by Abhijit Shankhdhar in the geeksforgeeks.org website (under the following URL: https://www.geeksforgeeks.org/check-number-palindrome-not-without-using-extra-space/).
+#### The isPalindrome() function in this solution was written by Danish Raza, found in the article by Abhijit Shankhdhar in the geeksforgeeks.org website (under the following URL: https://www.geeksforgeeks.org/check-number-palindrome-not-without-using-extra-space/).
 
-I have integrated this function into my code to help solve the problem, but I have added my own comments to ensure that I have reviewed the function to understand the logic behind it before implementing it within the rest of my code (below the function). I simply had to solve the problem! :smile:
+I have integrated this function into my code to help solve the problem, but I have added my own comments to ensure that I have reviewed the function to understand the logic behind it before implementing it within the rest of my code (below the function). I simply had to solve the problem! :smile:. Please scroll down to view the code without the extensive comments.
 
 	def isPalindrome(n): 
 	
@@ -52,7 +52,7 @@ Asking to print the first (index position 0) from blist will yield the final ans
 	print ("The largest palindrome made from the product of two 3-digit numbers is: ", blist[0])
 
 
-##### The full code is shown below:
+## The full code is shown below:
 
 	def isPalindrome(n): 
 		
